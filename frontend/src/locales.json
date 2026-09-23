@@ -6,6 +6,11 @@
             "authors": ["Bedirhan Yenilmez"]
         },
         {
+            "name": "简体中文",
+            "code": "zh-CN",
+            "authors": ["DeepSeek"]
+        },
+        {
             "name": "Türkçe",
             "code": "tr-TR",
             "authors": ["Bedirhan Yenilmez"]

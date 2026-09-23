@@ -1,0 +1,1601 @@
+{
+  "save": "保存",
+  "cancel": "取消",
+  "yes": "是",
+  "no": "否",
+  "show_in_explorer": "在资源管理器中显示",
+  "import": "导入",
+  "export": "导出",
+  "error": "错误",
+  "show": "显示",
+  "create": "创建",
+  "delete": "删除",
+  "unselect_all": "取消全选",
+  "clear": "清除",
+  "copy": "复制",
+  "add": "添加",
+  "back": "返回",
+  "stop": "停止",
+  "save_and_apply": "保存并应用",
+  "restore_to_default": "恢复默认",
+
+  "downloading_missing_external_programs": "正在下载缺失的外部程序...",
+  "downloaded_missing_external_programs": "已成功下载缺失的外部程序。",
+
+  "nav": {
+    "admin_panel": "管理面板",
+    "tools": "工具",
+    "settings": "设置"
+  },
+
+  "notifications": {
+    "copy_to_clipboard": "已复制到剪贴板",
+    "copy_to_clipboard_failed": "复制到剪贴板失败"
+  },
+
+  "rcon": {
+    "rcon_connection_failed": "RCON 连接失败",
+    "rcon_connection_established": "RCON 连接已建立",
+    "rcon_connection_lost": "RCON 连接已断开",
+    "error_encrypting_credentials": "加密凭据时出错",
+    "error_decrypting_credentials": "解密凭据时出错",
+    "error_saving_credentials": "保存凭据时出错",
+    "error_loading_credentials": "加载凭据时出错",
+
+    "no_options_to_update": "没有可更新的选项",
+    "failed_to_update_n_options": "更新 {{n}} 个选项失败",
+    "options_updated_sync_failed": "选项已更新，但同步到客户端失败",
+    "options_saved_and_reloaded": "选项已更新并重新加载",
+    "options_updated": "选项已更新",
+
+    "addPlayer": {
+      "cant_add_player": "无法添加玩家",
+      "player_already_in_list": "玩家 {{name}} 已在列表中"
+    },
+    "addPlayerToWhitelist": {
+      "single_success": "成功添加玩家",
+      "single_fail": "添加玩家失败"
+    },
+    "removePlayersFromWhitelist": {
+      "all_success": "成功移除 {{s}} 名玩家",
+      "all_fail": "移除 {{f}} 名玩家失败",
+      "partial": "成功移除 {{s}} 名玩家，移除 {{f}} 名玩家失败",
+      "single_success": "成功移除玩家 {{name}}",
+      "single_fail": "移除玩家 {{name}} 失败",
+
+      "cant_remove_player": "无法移除玩家",
+      "player_not_found_in_list": "列表中未找到玩家 {{name}}"
+    },
+    "banUsers": {
+      "all_success": "已封禁 {{s}} 名用户",
+      "all_fail": "封禁 {{f}} 名用户失败",
+      "partial": "已封禁 {{s}} 名用户，封禁 {{f}} 名用户失败",
+      "single_success": "成功封禁 {{name}}",
+      "single_fail": "封禁 {{name}} 失败"
+    },
+    "unbanUsers": {
+      "all_success": "已解封 {{s}} 名用户",
+      "all_fail": "解封 {{f}} 名用户失败",
+      "partial": "已解封 {{s}} 名用户，解封 {{f}} 名用户失败",
+      "single_success": "成功解封 {{name}}",
+      "single_fail": "解封 {{name}} 失败"
+    },
+    "kickUsers": {
+      "all_success": "已踢出 {{s}} 名用户",
+      "all_fail": "踢出 {{f}} 名用户失败",
+      "partial": "已踢出 {{s}} 名用户，踢出 {{f}} 名用户失败",
+      "single_success": "成功踢出 {{name}}",
+      "single_fail": "踢出 {{name}} 失败"
+    },
+    "godMode": {
+      "all_success": "已为 {{s}} 名用户设置上帝模式",
+      "all_fail": "为 {{f}} 名用户设置上帝模式失败",
+      "partial": "已为 {{s}} 名用户设置上帝模式，为 {{f}} 名用户设置失败",
+      "single_success": "成功为 {{name}} 设置上帝模式",
+      "single_fail": "为 {{name}} 设置上帝模式失败"
+    },
+    "teleport": {
+      "all_success": "已传送 {{s}} 名用户",
+      "all_fail": "传送 {{f}} 名用户失败",
+      "partial": "已传送 {{s}} 名用户，传送 {{f}} 名用户失败",
+      "single_success": "成功传送 {{name}}",
+      "single_fail": "传送 {{name}} 失败"
+    },
+    "setAccessLevel": {
+      "all_success": "已为 {{s}} 名用户设置权限等级",
+      "all_fail": "为 {{f}} 名用户设置权限等级失败",
+      "partial": "已为 {{s}} 名用户设置权限等级，为 {{f}} 名用户设置失败",
+      "single_success": "成功为 {{name}} 设置权限等级",
+      "single_fail": "为 {{name}} 设置权限等级失败"
+    },
+    "createHorde": {
+      "all_success": "已在 {{s}} 名用户附近创建尸群",
+      "all_fail": "在 {{f}} 名用户附近创建尸群失败",
+      "partial": "已在 {{s}} 名用户附近创建尸群，在 {{f}} 名用户附近创建失败",
+      "single_success": "成功在 {{name}} 附近创建尸群",
+      "single_fail": "在 {{name}} 附近创建尸群失败"
+    },
+    "lightning": {
+      "all_success": "已在 {{s}} 名用户附近触发闪电",
+      "all_fail": "在 {{f}} 名用户附近触发闪电失败",
+      "partial": "已在 {{s}} 名用户附近触发闪电，在 {{f}} 名用户附近触发失败",
+      "single_success": "成功在 {{name}} 附近触发闪电",
+      "single_fail": "在 {{name}} 附近触发闪电失败"
+    },
+    "thunder": {
+      "all_success": "已在 {{s}} 名用户附近触发雷声",
+      "all_fail": "在 {{f}} 名用户附近触发雷声失败",
+      "partial": "已在 {{s}} 名用户附近触发雷声，在 {{f}} 名用户附近触发失败",
+      "single_success": "成功在 {{name}} 附近触发雷声",
+      "single_fail": "在 {{name}} 附近触发雷声失败"
+    },
+    "addXP": {
+      "success": "成功添加经验",
+      "fail": "添加经验失败"
+    },
+    "addVehicle": {
+      "all_success": "已添加 {{s}} 辆车辆",
+      "all_fail": "添加 {{f}} 辆车辆失败",
+      "partial": "已添加 {{s}} 辆车辆，添加 {{f}} 辆车辆失败",
+      "single_success": "成功为 {{name}} 添加车辆",
+      "single_fail": "为 {{name}} 添加车辆失败"
+    },
+    "addItems": {
+      "success": "成功添加物品",
+      "fail": "添加物品失败"
+    },
+    "saveWorld": {
+      "single_success": "成功保存世界",
+      "single_fail": "保存世界失败"
+    },
+    "stopServer": {
+      "single_success": "正在停止服务器",
+      "single_fail": "停止服务器失败"
+    },
+    "checkModsNeedUpdate": {
+      "single_success": "检查已开始。结果将写入日志文件和聊天中",
+      "single_fail": "检查需要更新的模组失败"
+    },
+    "serverMessage": {
+      "single_success": "成功发送服务器消息",
+      "single_fail": "发送服务器消息失败"
+    },
+    "startRain": {
+      "single_success": "成功开始下雨",
+      "single_fail": "开始下雨失败"
+    },
+    "startStorm": {
+      "single_success": "成功开始暴风雨",
+      "single_fail": "开始暴风雨失败"
+    },
+    "stopRain": {
+      "single_success": "成功停止下雨",
+      "single_fail": "停止下雨失败"
+    },
+    "stopWeather": {
+      "single_success": "成功停止天气效果",
+      "single_fail": "停止天气效果失败"
+    },
+    "chopper": {
+      "single_success": "成功启动直升机事件",
+      "single_fail": "启动直升机事件失败"
+    },
+    "gunshot": {
+      "single_success": "成功触发枪声",
+      "single_fail": "触发枪声失败"
+    },
+    "triggerAlarm": {
+      "single_success": "成功触发警报",
+      "single_fail": "触发警报失败"
+    },
+    "reloadOptions": {
+      "single_success": "成功重新加载选项",
+      "single_fail": "重新加载选项失败"
+    }
+  },
+
+  "settings": {
+    "restart_the_app_for_changes_to_take_effect": "重新启动应用以使更改生效。",
+    "are_you_sure_you_want_to_import_this_config": "确定要导入此配置吗？",
+    "the_app_will_restart_to_load_the_new_config": "应用将重新启动以加载新配置。",
+    "config_saved": "配置已保存",
+    "there_was_an_error_saving_the_config": "保存配置时出错。",
+
+    "categories": {
+      "general": "通用",
+      "application": "应用",
+      "advanced": "高级",
+      "update": "更新",
+      "rcon": "RCON"
+    },
+
+    "setting": {
+      "language": {
+        "label": "语言",
+        "description": "选择你偏好的语言。",
+        "select_language": "选择语言...",
+        "search_language": "搜索语言...",
+        "no_languages_found": "未找到语言。"
+      },
+
+      "theme": {
+        "label": "主题",
+        "description": "选择界面的配色方案。"
+      },
+
+      "color_scheme": {
+        "label": "配色方案",
+        "description": "选择你偏好的配色方案。",
+        "select_color_scheme": "选择配色方案...",
+        "search_color_scheme": "搜索配色方案...",
+        "no_color_schemes_found": "未找到配色方案。",
+
+        "color_schemes": {
+          "default": "默认",
+          "midnightAsh": "午夜灰烬",
+          "dawnMist": "黎明薄雾",
+          "forestDawn": "森林黎明",
+          "goldenEmber": "金色余烬"
+        }
+      },
+
+      "window_effect": {
+        "label": "窗口效果",
+        "description": "选择窗口效果。",
+
+        "auto": "自动",
+        "none": "无",
+        "acrylic": "亚克力",
+        "mica": "云母",
+        "tabbed": "选项卡"
+      },
+
+      "window_opacity": {
+        "label": "窗口不透明度",
+        "description": "调整窗口不透明度。（如果窗口效果选择“无”，此设置将被忽略。）"
+      },
+
+      "window_scale": {
+        "label": "窗口缩放",
+        "description": "调整窗口缩放。"
+      },
+
+      "use_system_title_bar": {
+        "label": "使用系统标题栏",
+        "description": "使用默认系统标题栏，而不是自定义标题栏。"
+      },
+
+      "logging": {
+        "label": "启用日志记录",
+        "description": "启用文件日志记录。"
+      },
+
+      "log_levels": {
+        "label": "日志级别",
+        "description": "选择要记录的日志级别。"
+      },
+
+      "max_log_files": {
+        "label": "最大日志文件数",
+        "description": "设置要保留的最大日志文件数。"
+      },
+
+      "import_export": {
+        "label": "导入/导出设置",
+        "description": "从 JSON 文件导入设置或将设置导出到 JSON 文件。"
+      },
+
+      "save_window_status": {
+        "label": "保存窗口状态",
+        "description": "保存窗口大小、位置和状态。"
+      },
+
+      "check_for_updates": {
+        "label": "启动时检查更新",
+        "description": "启动时检查更新。"
+      },
+
+      "update": {
+        "update_available": "有可用更新",
+        "no_updates_available": "没有可用更新",
+        "last_checked": "上次检查",
+        "check_for_updates": "检查更新",
+        "update": "更新",
+        "updating": "正在更新...",
+        "failed_to_check_for_updates": "检查更新失败。请稍后再试。",
+        "failed_to_download_update": "下载更新失败。请稍后再试。",
+        "failed_to_apply_update": "应用更新失败。",
+        "update_applied": "更新已成功应用。",
+        "restarting": "正在重新启动...",
+        "need_admin_privileges": "更新应用需要管理员权限。",
+        "update_successful": "更新已成功应用。"
+      },
+
+      "rcon_check_interval": {
+        "label": "RCON 检查间隔",
+        "description": "设置检查连接和在线玩家的频率（以秒为单位）。"
+      },
+
+      "disable_weather_control_buttons": {
+        "label": "禁用天气控制按钮",
+        "description": "禁用服务器管理面板中的天气控制按钮，以防止误触。"
+      },
+
+      "disable_random_event_buttons": {
+        "label": "禁用随机事件按钮",
+        "description": "禁用服务器管理面板中的随机事件按钮，以防止误触。"
+      },
+
+      "disable_other_management_buttons": {
+        "label": "禁用其他管理按钮",
+        "description": "禁用服务器管理面板“其他”类别中的按钮，以防止误触。"
+      },
+
+      "debug_mode": {
+        "label": "调试模式",
+        "description": "启用调试模式。"
+      }
+    }
+  },
+
+  "tools": {
+    "message_editor": {
+      "mode": {
+        "tool": {
+          "name": "消息编辑器",
+          "copy_formatted_message": "复制格式化消息"
+        },
+        "message": {
+          "name": "发送消息",
+          "description": "向服务器发送消息。",
+          "send": "发送"
+        },
+        "edit": {
+          "name": "编辑消息",
+          "reset": "重置",
+          "save_edit": "保存编辑"
+        }
+      },
+      "notifications": {
+        "error_saving_message": "保存消息时出错",
+        "message_saved": "消息已保存",
+        "error_loading_message": "加载消息时出错"
+      },
+
+      "message": "消息",
+      "message_placeholder": "在此输入你的消息...",
+      "formatted_message": "格式化消息",
+      "save_message": "保存消息",
+      "load_message": "加载消息",
+      "bytes": "字节"
+    },
+    "item_browser": {
+      "mode": {
+        "tool": {
+          "name": "物品浏览器"
+        },
+        "add": {
+          "name": "添加物品",
+          "description": "你将向 {{names}} 添加物品。",
+          "add_selected_items": "添加所选物品"
+        },
+        "edit": {
+          "name": "编辑物品",
+          "reset": "重置",
+          "save_edit": "保存编辑"
+        }
+      },
+
+      "selected_items": "所选物品",
+      "search_items_placeholder": "搜索物品...",
+      "show_ids": "显示物品 ID",
+      "save_items": "保存物品",
+      "load_items": "加载物品",
+      "custom_item_placeholder": "自定义物品 ID..."
+    },
+    "vehicle_browser": {
+      "mode": {
+        "tool": {
+          "name": "车辆浏览器"
+        },
+        "add": {
+          "name": "添加车辆",
+          "preview_in_map_website": "在地图网站中预览",
+          "player_combobox": {
+            "placeholder": "选择目标玩家",
+            "search_placeholder": "搜索玩家...",
+            "search_not_found": "未找到玩家。"
+          },
+          "add_vehicle": "添加车辆"
+        }
+      },
+
+      "Vehicles": "车辆",
+      "Heavy-duty Vehicles": "重型车辆",
+      "Sport Vehicles": "运动车辆",
+      "Standard Vehicles": "标准车辆",
+      "Trailers": "拖车",
+
+      "Chevalier D6": "Chevalier D6",
+      "Chevalier Step Van": "Chevalier 厢式货车",
+      "Dash Bulldriver": "Dash Bulldriver",
+      "Franklin All-Terrain": "Franklin 全地形车",
+      "Franklin Valuline": "Franklin Valuline",
+
+      "Chevalier Cossette": "Chevalier Cossette",
+      "Chevalier Primani": "Chevalier Primani",
+      "Dash Elite": "Dash Elite",
+      "Mercia Lang 4000": "Mercia Lang 4000",
+
+      "Chevalier Cerise Wagon": "Chevalier Cerise 旅行车",
+      "Chevalier Dart": "Chevalier Dart",
+      "Chevalier Nyala": "Chevalier Nyala",
+      "Dash Rancher": "Dash Rancher",
+      "Masterson Horizon": "Masterson Horizon",
+
+      "Normal": "普通",
+      "Police": "警用",
+      "Ambulance": "救护车",
+      "Fire": "消防",
+      "Mail": "邮政",
+      "Ranger": "护林员",
+      "Fossoil": "Fossoil",
+      "Ranger_Fossoil": "护林员/Fossoil",
+      "Taxi (yellow)": "出租车（黄色）",
+      "Taxi (green)": "出租车（绿色）",
+      "McCoy": "McCoy",
+      "Kentucky Herald": "肯塔基先驱报",
+      "Scarlet Oak Distillery": "Scarlet Oak 酿酒厂",
+      "Knox Distillery": "Knox 酿酒厂",
+      "KY Transit": "KY 公交",
+      "LBMW Network Radio": "LBMW 网络电台",
+      "Lectromax Manufacturing": "Lectromax 制造",
+      "Mass-Genfac Co": "Mass-Genfac 公司",
+      "Spiffos": "Spiffo's",
+      "Triple-N Radio Van": "Triple-N 电台车",
+      "6-Seater": "6 座",
+      "Wood Siding": "木板外墙",
+      "Advert Trailer": "广告拖车",
+      "Trailer": "拖车",
+      "Cover": "车盖"
+    }
+  },
+
+  "admin_panel": {
+    "disconnect": "断开连接",
+    "connected_to": "已连接到 {{socket}}",
+
+    "tabs": {
+      "management": {
+        "name": "管理",
+        "send_message": "发送消息",
+
+        "weather": {
+          "title": "天气",
+          "warning": "据报告可能导致天气循环问题",
+          "stop_rain": "停止下雨",
+          "stop_weather": "停止天气",
+
+          "start_rain": {
+            "name": "开始下雨",
+            "description": "开始下雨，可设置强度 1-100",
+            "intensity": "强度"
+          },
+          "start_storm": {
+            "name": "开始暴风雨",
+            "description": "开始暴风雨，可设置持续时间（游戏小时）",
+            "duration": "持续时间"
+          }
+        },
+
+        "random": {
+          "title": "随机事件",
+          "description": "对随机玩家触发所点击的事件",
+          "online_players": "在线玩家：{{players}}",
+          "no_players": "没有在线玩家",
+          "chopper": {
+            "name": "直升机",
+            "tooltip": "对随机玩家触发直升机事件"
+          },
+          "gunshot": {
+            "name": "枪声",
+            "tooltip": "对随机玩家触发枪声事件"
+          },
+          "lightning": {
+            "name": "闪电",
+            "tooltip": "对随机玩家触发闪电"
+          },
+          "thunder": {
+            "name": "雷声",
+            "tooltip": "对随机玩家触发雷声"
+          }
+        },
+
+        "other": {
+          "title": "其他",
+
+          "check_mod_updates": {
+            "name": "检查模组更新",
+            "description": "检查模组是否已更新。将结果写入日志文件和聊天。"
+          },
+          "alarm": {
+            "name": "警报",
+            "description": "在管理员位置触发建筑警报。（必须在房间内）"
+          }
+        }
+      },
+      "players": {
+        "name": "玩家",
+        "filter_by_name": "按名称筛选...",
+        "god_mode": "上帝模式",
+        "events": "事件",
+
+        "columns": {
+          "name": {
+            "name": "名称"
+          },
+          "status": {
+            "name": "状态",
+            "offline": "离线",
+            "online": "在线",
+            "banned": "已封禁"
+          },
+          "access_level": {
+            "name": "权限等级",
+            "admin": "管理员",
+            "moderator": "版主",
+            "overseer": "监督者",
+            "gm": "GM",
+            "observer": "观察者",
+            "player": "玩家",
+            "unknown": "未知"
+          }
+        },
+
+        "dialogs": {
+          "setaccesslevel": {
+            "button": "设置权限等级",
+            "title": "设置权限等级",
+            "players": "你将设置 {{players}} 的权限等级。",
+            "submit": "设置权限等级",
+
+            "permissions": {
+              "player": [],
+              "observer": [
+                "切换上帝模式和隐身（仅自己）",
+                "查看已连接玩家（/players）",
+                "传送到玩家或坐标",
+                "使用穿墙（仅自己）",
+                "查看服务器设置",
+                "打开锁着的门并进入安全屋",
+                "绕过延迟踢出并加入满员服务器",
+                "隐身时聊天",
+                "看到隐身玩家",
+                "免疫玩家攻击",
+                "以隐身/无敌状态开始",
+                "查看玩家统计（只读）"
+              ],
+              "gm": [
+                "所有观察者权限",
+                "切换上帝模式、隐身和穿墙（自己和他人）",
+                "将玩家相互传送",
+                "触发警报、枪声、雷声和直升机",
+                "控制下雨",
+                "添加物品和经验"
+              ],
+              "overseer": [
+                "所有 GM 权限",
+                "创建尸群",
+                "踢出用户",
+                "发送全服消息",
+                "查看玩家连接信息",
+                "断开玩家连接",
+                "调整夜晚长度",
+                "编辑玩家统计",
+                "禁止玩家聊天"
+              ],
+              "moderator": [
+                "所有监督者权限",
+                "封禁/解封用户（包括通过 Steam ID）",
+                "管理白名单",
+                "分配安全屋",
+                "更改权限等级（管理员除外）"
+              ],
+              "admin": [
+                "所有版主权限",
+                "保存并退出世界",
+                "更改任何权限等级",
+                "重新加载服务器设置和 Lua 文件",
+                "绕过 Lua 校验",
+                "发送服务器脉冲"
+              ]
+            }
+          },
+
+          "banuser": {
+            "button": "封禁",
+            "title": "封禁用户",
+            "title_multiple": "封禁用户",
+            "players": "你将封禁 {{players}}。",
+            "submit": "封禁",
+
+            "reason": "原因",
+            "reason_placeholder": "刷屏、捣乱等",
+            "ban_ip": "封禁 IP"
+          },
+
+          "unbanuser": {
+            "button": "解封",
+            "title": "解封用户",
+            "title_multiple": "解封用户",
+            "players": "你将解封 {{players}}。",
+            "submit": "解封"
+          },
+
+          "kickuser": {
+            "button": "踢出",
+            "title": "踢出用户",
+            "title_multiple": "踢出用户",
+            "players": "你将踢出 {{players}}。",
+            "submit": "踢出",
+
+            "reason": "原因",
+            "reason_placeholder": "刷屏、捣乱等"
+          },
+
+          "teleport": {
+            "button": "传送",
+            "title": "传送用户",
+            "title_multiple": "传送用户",
+            "players": "你将传送 {{players}}。",
+            "submit": "传送",
+
+            "coordinates_tab": "到坐标",
+            "player_tab": "到玩家",
+
+            "preview_in_map_website": "在地图网站中预览",
+
+            "player_combobox": {
+              "placeholder": "选择目标玩家",
+              "search_placeholder": "搜索玩家...",
+              "search_not_found": "未找到玩家。"
+            }
+          },
+
+          "createhorde": {
+            "button": "创建尸群",
+            "title": "创建尸群",
+            "players": "你将在 {{players}} 附近创建尸群。",
+            "submit": "创建尸群",
+
+            "horde_size": "尸群规模"
+          },
+
+          "lightning": {
+            "button": "闪电",
+            "title": "触发闪电",
+            "players": "你将在 {{players}} 附近触发闪电。",
+            "submit": "触发闪电"
+          },
+
+          "thunder": {
+            "button": "雷声",
+            "title": "触发雷声",
+            "players": "你将在 {{players}} 附近触发雷声。",
+            "submit": "触发雷声"
+          },
+
+          "addxp": {
+            "button": "添加经验",
+            "title": "添加经验",
+            "players": "你将向 {{players}} 添加经验。",
+            "submit": "添加经验",
+
+            "xp_amount": "经验值",
+            "max_all": "全部满级",
+            "regular_skill": "常规技能",
+            "passive_skill": "被动技能",
+            "lvl": "等级",
+
+            "skills": {
+              "Passive": {
+                "name": "被动",
+
+                "Fitness": "健身",
+                "Strength": "力量"
+              },
+
+              "Firearm": {
+                "name": "枪械",
+
+                "Aiming": "瞄准",
+                "Reloading": "装填"
+              },
+
+              "Survivalist": {
+                "name": "生存",
+
+                "Fishing": "钓鱼",
+                "Trapping": "陷阱",
+                "PlantScavenging": "采集"
+              },
+
+              "Combat": {
+                "name": "战斗",
+
+                "Axe": "斧头",
+                "Blunt": "长钝器",
+                "SmallBlunt": "短钝器",
+                "LongBlade": "长刃",
+                "SmallBlade": "短刃",
+                "Spear": "长矛",
+                "Maintenance": "保养"
+              },
+
+              "Agility": {
+                "name": "敏捷",
+
+                "Sprinting": "冲刺",
+                "Nimble": "灵活",
+                "Lightfoot": "轻步",
+                "Sneak": "潜行"
+              },
+
+              "Crafting": {
+                "name": "制作",
+
+                "Woodwork": "木工",
+                "Cooking": "烹饪",
+                "Farming": "耕种",
+                "Doctor": "急救",
+                "Electricity": "电工",
+                "MetalWelding": "金属焊接",
+                "Mechanics": "机械",
+                "Tailoring": "裁缝"
+              }
+            }
+          },
+
+          "addplayertowhitelist": {
+            "button": "添加玩家",
+            "title": "添加玩家到白名单",
+            "submit": "添加玩家到白名单",
+
+            "name": "名称",
+            "password": "密码"
+          },
+
+          "removeplayersfromwhitelist": {
+            "button": "移除玩家",
+            "dropdown_button": "从白名单移除",
+            "title": "从白名单移除玩家",
+            "title_multiple": "从白名单移除玩家",
+            "players": "你将把 {{players}} 从白名单中移除。",
+            "submit": "移除玩家",
+            "submit_multiple": "移除玩家",
+
+            "remove_from_players_list": "同时从玩家列表中移除"
+          },
+
+          "add_missing_player": {
+            "button": "缺少玩家？将离线玩家添加到列表。",
+            "title": "添加玩家",
+            "submit": "添加玩家",
+
+            "name": "名称"
+          },
+
+          "additem": {
+            "button": "添加物品",
+            "notifications": {
+              "error_saving_items": "保存物品时出错",
+              "items_saved": "物品已保存",
+              "error_loading_items": "加载物品时出错"
+            }
+          },
+
+          "addvehicle": {
+            "button": "添加车辆",
+
+            "coordinates_tab": "到坐标",
+            "player_tab": "到玩家"
+          }
+        }
+      },
+      "options": {
+        "name": "选项",
+
+        "reload_options": "重新加载选项",
+        "search_options": "搜索选项...",
+
+        "notifications": {
+          "error_exporting_options": "导出选项时出错",
+          "options_exported": "选项已导出",
+          "error_importing_options": "导入选项时出错"
+        },
+
+        "categories": {
+          "General": "通用",
+          "Gameplay & Mechanics": "玩法与机制",
+          "Safehouse": "安全屋",
+          "Faction": "派系",
+          "Player": "玩家",
+          "PVP": "PvP",
+          "VOIP & Chat": "VOIP 与聊天",
+          "Discord": "Discord",
+          "Backup": "备份",
+          "Anti-Cheat": "反作弊",
+          "Miscellaneous": "杂项"
+        }
+      },
+      "terminal": {
+        "name": "终端"
+      },
+      "connection": {
+        "title": "连接到你的服务器",
+        "description": "输入服务器详细信息以连接",
+        "server_ip_or_domain": "服务器 IP 或域名",
+        "rcon_port": "RCON 端口",
+        "rcon_password": "RCON 密码",
+        "save_credentials": "保存凭据",
+        "auto_connect": "启动时自动连接",
+        "connect": "连接"
+      }
+    }
+  },
+
+  "options": {
+    "requires": "需要 {{option}} 为 {{value}}。",
+    "requires_2": "需要 {{option1}} 为 {{value1}}，且 {{option2}} 为 {{value2}}。",
+    "requires_3": "需要 {{option1}} 为 {{value1}}，{{option2}} 为 {{value2}}，且 {{option3}} 为 {{value3}}。",
+
+    "AntiCheatProtectionType1": {
+      "display_name": "反作弊保护类型 1",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type1"
+    },
+    "AntiCheatProtectionType2": {
+      "display_name": "反作弊保护类型 2",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type2"
+    },
+    "AntiCheatProtectionType3": {
+      "display_name": "反作弊保护类型 3",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type3"
+    },
+    "AntiCheatProtectionType4": {
+      "display_name": "反作弊保护类型 4",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type4"
+    },
+    "AntiCheatProtectionType5": {
+      "display_name": "反作弊保护类型 5",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type5"
+    },
+    "AntiCheatProtectionType6": {
+      "display_name": "反作弊保护类型 6",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type6"
+    },
+    "AntiCheatProtectionType7": {
+      "display_name": "反作弊保护类型 7",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type7"
+    },
+    "AntiCheatProtectionType8": {
+      "display_name": "反作弊保护类型 8",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type8"
+    },
+    "AntiCheatProtectionType9": {
+      "display_name": "反作弊保护类型 9",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type9"
+    },
+    "AntiCheatProtectionType10": {
+      "display_name": "反作弊保护类型 10",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type10"
+    },
+    "AntiCheatProtectionType11": {
+      "display_name": "反作弊保护类型 11",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type11"
+    },
+    "AntiCheatProtectionType12": {
+      "display_name": "反作弊保护类型 12",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type12"
+    },
+    "AntiCheatProtectionType13": {
+      "display_name": "反作弊保护类型 13",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type13"
+    },
+    "AntiCheatProtectionType14": {
+      "display_name": "反作弊保护类型 14",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type14"
+    },
+    "AntiCheatProtectionType15": {
+      "display_name": "反作弊保护类型 15",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type15"
+    },
+    "AntiCheatProtectionType16": {
+      "display_name": "反作弊保护类型 16",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type16"
+    },
+    "AntiCheatProtectionType17": {
+      "display_name": "反作弊保护类型 17",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type17"
+    },
+    "AntiCheatProtectionType18": {
+      "display_name": "反作弊保护类型 18",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type18"
+    },
+    "AntiCheatProtectionType19": {
+      "display_name": "反作弊保护类型 19",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type19"
+    },
+    "AntiCheatProtectionType20": {
+      "display_name": "反作弊保护类型 20",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type20"
+    },
+    "AntiCheatProtectionType21": {
+      "display_name": "反作弊保护类型 21",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type21"
+    },
+    "AntiCheatProtectionType22": {
+      "display_name": "反作弊保护类型 22",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type22"
+    },
+    "AntiCheatProtectionType23": {
+      "display_name": "反作弊保护类型 23",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type23"
+    },
+    "AntiCheatProtectionType24": {
+      "display_name": "反作弊保护类型 24",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type24"
+    },
+    "AntiCheatProtectionType2ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 2 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type2,threshold,multiplier"
+    },
+    "AntiCheatProtectionType3ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 3 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type3,threshold,multiplier"
+    },
+    "AntiCheatProtectionType4ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 4 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type4,threshold,multiplier"
+    },
+    "AntiCheatProtectionType9ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 9 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type9,threshold,multiplier"
+    },
+    "AntiCheatProtectionType15ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 15 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type15,threshold,multiplier"
+    },
+    "AntiCheatProtectionType20ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 20 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type20,threshold,multiplier"
+    },
+    "AntiCheatProtectionType22ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 22 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type22,threshold,multiplier"
+    },
+    "AntiCheatProtectionType24ThresholdMultiplier": {
+      "display_name": "反作弊保护类型 24 阈值倍数",
+      "description": "",
+      "keywords": "anti-cheat,anticheat,cheat,protection,type24,threshold,multiplier"
+    },
+    "DoLuaChecksum": {
+      "display_name": "启用 Lua 校验踢出",
+      "description": "如果启用，游戏文件与服务器文件不匹配的客户端将被踢出。",
+      "keywords": "anti-cheat,anticheat,cheat,lua,checksum,kick"
+    },
+    "KickFastPlayers": {
+      "display_name": "踢出快速移动玩家",
+      "description": "如果启用，移动速度看起来不可能的玩家将被踢出。可能有缺陷——请谨慎使用。",
+      "keywords": "anti-cheat,anticheat,cheat,kick,fast players"
+    },
+    "SteamVAC": {
+      "display_name": "启用 Valve 反作弊（Steam VAC）",
+      "description": "启用 Steam VAC 反作弊系统。",
+      "keywords": "anti-cheat,anticheat,VAC,cheat"
+    },
+    "BackupsCount": {
+      "display_name": "备份数量",
+      "description": "指定要保留的备份数量。",
+      "keywords": "backup,count"
+    },
+    "BackupsOnStart": {
+      "display_name": "启动时启用备份",
+      "description": "服务器启动时创建备份。",
+      "keywords": "backup,start"
+    },
+    "BackupsOnVersionChange": {
+      "display_name": "版本变更时启用备份",
+      "description": "服务器版本变更时创建备份。",
+      "keywords": "backup,version,change"
+    },
+    "BackupsPeriod": {
+      "display_name": "备份周期",
+      "description": "指定备份之间的周期。",
+      "disabled": "已禁用",
+      "keywords": "backups,period"
+    },
+    "DiscordEnable": {
+      "display_name": "启用 Discord 集成",
+      "description": "使用有效的机器人令牌，允许全局聊天与 Discord 频道集成。需要在“Discord 令牌”下设置有效的机器人令牌。",
+      "disabled": "禁用",
+      "keywords": "discord,integration"
+    },
+    "DiscordToken": {
+      "display_name": "Discord 令牌",
+      "description": "设置用于访问 Discord 服务器的机器人令牌。",
+      "keywords": "discord,token"
+    },
+    "DiscordChannel": {
+      "display_name": "Discord 频道",
+      "description": "设置要集成的 Discord 频道名称。如果无效，请使用“Discord 频道 ID”。",
+      "keywords": "discord,channel"
+    },
+    "DiscordChannelID": {
+      "display_name": "Discord 频道 ID",
+      "description": "设置要集成的 Discord 频道 ID。如果“Discord 频道”无效，请使用此项。",
+      "keywords": "discord,channel id"
+    },
+    "Faction": {
+      "display_name": "启用派系",
+      "description": "启用派系创建和使用。",
+      "keywords": "faction,enable"
+    },
+    "FactionDaySurvivedToCreate": {
+      "display_name": "创建派系所需游戏天数",
+      "description": "指定玩家必须存活多少个游戏内天数才能解锁派系创建。",
+      "keywords": "faction,days,create"
+    },
+    "FactionPlayersRequiredForTag": {
+      "display_name": "创建派系标签所需玩家数",
+      "description": "创建标签所需派系内的玩家数量。",
+      "keywords": "faction,tag,players"
+    },
+    "AllowDestructionBySledgehammer": {
+      "display_name": "允许大锤破坏",
+      "description": "允许玩家使用大锤摧毁世界物体。",
+      "keywords": "sledgehammer,destruction,destroy"
+    },
+    "BloodSplatLifespanDays": {
+      "display_name": "血迹存留天数",
+      "description": "旧血迹被移除前的天数。移除发生在加载地图区块时。",
+      "disabled": "永不",
+      "keywords": "blood,splats,lifespan,days"
+    },
+    "CarEngineAttractionModifier": {
+      "display_name": "汽车引擎吸引修正",
+      "description": "调整僵尸被汽车吸引的范围。较低的值有助于减少卡顿。",
+      "keywords": "car,engine,zombie,attraction,modifier"
+    },
+    "ConstructionPreventsLootRespawn": {
+      "display_name": "建筑阻止战利品生成",
+      "description": "阻止玩家建筑或路障所在的建筑物内生成战利品。",
+      "keywords": "construction,loot,respawn,prevent"
+    },
+    "FastForwardMultiplier": {
+      "display_name": "睡眠快进倍数",
+      "description": "决定玩家睡眠期间时间流逝的速度。",
+      "keywords": "fast-forward,sleep,time,multiplier"
+    },
+    "HidePlayersBehindYou": {
+      "display_name": "隐藏身后玩家",
+      "description": "自动隐藏角色身后视野外的玩家（类似僵尸）。",
+      "keywords": "hide,players,behind,view"
+    },
+    "HoursForLootRespawn": {
+      "display_name": "战利品生成最短周期",
+      "description": "被搜刮的容器重新生成战利品所需的游戏内小时数。战利品生成不受可见性或后续搜刮影响。",
+      "disabled": "永不",
+      "keywords": "loot,respawn,hours,minimum"
+    },
+    "ItemNumbersLimitPerContainer": {
+      "display_name": "每个容器物品上限",
+      "description": "每个容器允许的最大物品数量。包括钉子等单个小物品。",
+      "disabled": "无限制",
+      "keywords": "item,limit,container"
+    },
+    "KnockedDownAllowed": {
+      "display_name": "允许击倒",
+      "description": "允许玩家被击倒。",
+      "keywords": "knocked,down,allow"
+    },
+    "MaxItemsForLootRespawn": {
+      "display_name": "战利品生成最大物品数",
+      "description": "每个容器允许生成战利品的最大物品数量。",
+      "keywords": "loot,respawn,maximum,items"
+    },
+    "MinutesPerPage": {
+      "display_name": "每页书页分钟数",
+      "description": "阅读一页书所需的游戏内分钟数。",
+      "keywords": "minutes,book,page,read"
+    },
+    "NoFire": {
+      "display_name": "禁止火焰",
+      "description": "阻止任何火焰（营火除外）。",
+      "keywords": "fire,prevent"
+    },
+    "PlayerBumpPlayer": {
+      "display_name": "启用玩家碰撞",
+      "description": "玩家可以相互碰撞并撞倒。",
+      "keywords": "player,bump,knock"
+    },
+    "PlayerRespawnWithOther": {
+      "display_name": "允许在他人位置重生",
+      "description": "允许在分屏/远程游戏中在另一名玩家位置重生。",
+      "keywords": "respawn,location,other,split,screen,remote play,remote-play"
+    },
+    "PlayerRespawnWithSelf": {
+      "display_name": "允许在死亡坐标重生",
+      "description": "允许在玩家死亡坐标处重生。",
+      "keywords": "respawn,death,coordinates"
+    },
+    "RemovePlayerCorpsesOnCorpseRemoval": {
+      "display_name": "清理尸体时移除玩家尸体",
+      "description": "触发尸体清理时，从地面移除玩家尸体。",
+      "keywords": "player,corpse,removal,clean"
+    },
+    "SledgehammerOnlyInSafehouse": {
+      "display_name": "仅允许安全屋内使用大锤",
+      "description": "允许玩家仅在自己的安全屋内使用大锤。",
+      "keywords": "sledgehammer,safehouse,destruction,restriction"
+    },
+    "SleepAllowed": {
+      "display_name": "允许睡眠",
+      "description": "允许玩家在疲劳时睡觉，但不强制。",
+      "keywords": "sleep,allow,optional"
+    },
+    "SleepNeeded": {
+      "display_name": "需要睡眠",
+      "description": "如果启用，玩家会变得疲劳并需要睡眠。",
+      "keywords": "sleep,required,needed"
+    },
+    "SneakModeHideFromOtherPlayers": {
+      "display_name": "潜行模式下对其他玩家隐藏",
+      "description": "潜行时对其他玩家隐藏。",
+      "keywords": "sneak,hide,hidden,players"
+    },
+    "SpeedLimit": {
+      "display_name": "速度限制",
+      "description": "设置玩家的最大移动速度。",
+      "keywords": "speed,limit,maximum"
+    },
+    "TrashDeleteAll": {
+      "display_name": "启用垃圾桶全部删除",
+      "description": "允许玩家使用垃圾桶上的“全部删除”按钮。",
+      "keywords": "trash,delete,all"
+    },
+    "AllowCoop": {
+      "display_name": "允许合作/分屏玩家",
+      "description": "允许合作/分屏游戏。",
+      "keywords": "co-op,splitscreen,allow"
+    },
+    "AllowNonAsciiUsername": {
+      "display_name": "允许非 ASCII 用户名",
+      "description": "允许用户名中使用非 ASCII（西里尔字母等）字符",
+      "keywords": "non ascii,non-ascii,username,allow"
+    },
+    "AnnounceDeath": {
+      "display_name": "公告玩家死亡",
+      "description": "玩家死亡时在聊天中广播全局消息。",
+      "keywords": "announce,death,player"
+    },
+    "BanKickGlobalSound": {
+      "display_name": "启用封禁/踢出全局音效",
+      "description": "玩家被封禁或踢出时播放全局音效。",
+      "keywords": "ban,kick,sound,global"
+    },
+    "ClientActionLogs": {
+      "display_name": "客户端操作日志",
+      "description": "以分号分隔的操作列表，将写入 ClientActionLogs.txt 服务器日志",
+      "keywords": "client,actions,logs"
+    },
+    "ClientCommandFilter": {
+      "display_name": "客户端命令过滤器",
+      "description": "以分号分隔的命令列表，不会写入 cmd.txt 服务器日志",
+      "keywords": "client,command,filter,logs"
+    },
+    "DefaultPort": {
+      "display_name": "默认端口",
+      "description": "服务器通信的默认端口。",
+      "keywords": "server,port,default"
+    },
+    "DenyLoginOnOverloadedServer": {
+      "display_name": "服务器过载时拒绝登录",
+      "description": "如果服务器过载，阻止登录。",
+      "keywords": "server,overload,login,deny"
+    },
+    "Map": {
+      "display_name": "地图",
+      "description": "以分号分隔的要加载到服务器的地图列表。",
+      "keywords": "maps,server,load"
+    },
+    "MapRemotePlayerVisibility": {
+      "display_name": "远程玩家地图可见性",
+      "description": "控制游戏内地图上远程玩家的显示",
+      "choices": {
+        "Hidden": "隐藏",
+        "Friends": "好友",
+        "Everyone": "所有人"
+      },
+      "keywords": "remote,player,map,visibility"
+    },
+    "MaxPlayers": {
+      "display_name": "最大玩家数",
+      "description": "服务器允许的最大玩家数量（不包括管理员）。",
+      "keywords": "server,players,limit,maximum"
+    },
+    "Mods": {
+      "display_name": "模组",
+      "description": "以分号分隔的模组 ID 列表。",
+      "keywords": "mods,server"
+    },
+    "Open": {
+      "display_name": "启用开放服务器",
+      "description": "允许玩家无需在白名单中即可加入。否则，管理员必须手动创建用户名/密码组合。",
+      "keywords": "server,open,whitelist"
+    },
+    "PauseEmpty": {
+      "display_name": "空服时暂停",
+      "description": "没有玩家在线时暂停游戏时间。",
+      "keywords": "pause,empty,players"
+    },
+    "PerkLogs": {
+      "display_name": "启用技能日志",
+      "description": "在 PerkLog.txt 文件中跟踪玩家技能变化。",
+      "keywords": "perk,logs,tracking"
+    },
+    "Public": {
+      "display_name": "公开服务器",
+      "description": "在公共服务器浏览器中显示服务器（启用 Steam 的服务器始终在 Steam 服务器浏览器中可见）。",
+      "keywords": "server,public,browser,steam"
+    },
+    "PublicDescription": {
+      "display_name": "服务器公开描述",
+      "description": "服务器浏览器中显示的描述。",
+      "keywords": "server,description,public"
+    },
+    "PublicName": {
+      "display_name": "服务器公开名称",
+      "description": "服务器浏览器中显示的服务器名称，如适用，也会显示在 Steam 浏览器中。",
+      "keywords": "server,name,public,steam"
+    },
+    "SaveWorldEveryMinutes": {
+      "display_name": "自动保存世界间隔",
+      "description": "自动保存世界之间的间隔（实时分钟）（地图通常仅在客户端离开已加载区域后保存）。",
+      "disabled": "永不",
+      "keywords": "save,world,interval,minutes"
+    },
+    "SpawnItems": {
+      "display_name": "出生物品",
+      "description": "玩家出生时携带的物品列表。",
+      "keywords": "spawn,items,players"
+    },
+    "SpawnPoint": {
+      "display_name": "出生点",
+      "description": "玩家出生点坐标。坐标请参见 https://map.projectzomboid.com。",
+      "disabled": "0,0,0",
+      "keywords": "spawn,point,coordinates,map"
+    },
+    "UDPPort": {
+      "display_name": "UDP 端口",
+      "description": "用于 UDP 通信的端口。",
+      "keywords": "port,udp,communication"
+    },
+    "UPnP": {
+      "display_name": "启用 UPnP",
+      "description": "允许在兼容路由器上自动端口转发。",
+      "keywords": "port,forwarding,router"
+    },
+    "WorkshopItems": {
+      "display_name": "创意工坊物品",
+      "description": "以分号分隔的要安装的创意工坊物品 ID 列表。",
+      "keywords": "workshop,items,mods"
+    },
+    "ServerWelcomeMessage": {
+      "display_name": "欢迎消息",
+      "description": "玩家登录时显示的消息。",
+      "keywords": "welcome,message,motd,login"
+    },
+    "ResetID": {
+      "display_name": "重置 ID",
+      "description": "重置 ID 决定服务器是否经历了软重置。如果此数字与客户端不匹配，客户端必须创建新角色。与 PlayerServerID 配合使用。强烈建议你在某处备份这些 ID",
+      "keywords": "reset,id,soft-reset,soft reset"
+    },
+    "ServerPlayerID": {
+      "display_name": "服务器玩家 ID",
+      "description": "ServerPlayerID 决定角色是否来自另一个服务器或单人游戏。此值可能因软重置而改变。如果此数字与客户端不匹配，客户端必须创建新角色。与 ResetID 配合使用。强烈建议你在某处备份这些 ID",
+      "keywords": "server,player,id,soft-reset,soft reset"
+    },
+    "PVP": {
+      "display_name": "允许 PvP",
+      "description": "启用玩家对战。",
+      "keywords": "pvp,combat,enable"
+    },
+    "PVPFirearmDamageModifier": {
+      "display_name": "PvP 枪械伤害修正",
+      "description": "调整 PvP 中的枪械伤害。",
+      "keywords": "pvp,firearm,damage,modifier"
+    },
+    "PVPMeleeDamageModifier": {
+      "display_name": "PvP 近战伤害修正",
+      "description": "调整 PvP 中的近战伤害。",
+      "keywords": "pvp,melee,damage,modifier"
+    },
+    "PVPMeleeWhileHitReaction": {
+      "display_name": "启用受击反应时 PvP 近战",
+      "description": "允许玩家被另一名玩家击中时再次攻击。",
+      "keywords": "pvp,melee,hit,reactions"
+    },
+    "SafetyCooldownTimer": {
+      "display_name": "PvP 冷却计时器",
+      "description": "玩家重新进入 PvP 模式前的时间。",
+      "keywords": "pvp,cooldown,timer"
+    },
+    "SafetySystem": {
+      "display_name": "启用 PvP 切换（安全系统）",
+      "description": "允许单独开启和关闭 PvP 模式。只有当至少一方处于 PvP 模式时，玩家才能伤害另一名玩家。",
+      "keywords": "pvp,toggle,mode,safety system"
+    },
+    "SafetyToggleTimer": {
+      "display_name": "PvP 切换计时器",
+      "description": "切换 PvP 模式所需时间。",
+      "keywords": "pvp,toggle,timer"
+    },
+    "ShowSafety": {
+      "display_name": "显示玩家 PvP 状态",
+      "description": "在进入 PvP 模式的玩家头顶显示骷髅图标",
+      "keywords": "pvp,status,indicator,safety system"
+    },
+    "AutoCreateUserInWhiteList": {
+      "display_name": "自动将玩家加入白名单",
+      "description": "自动将新玩家添加到白名单（适用于开放服务器）。玩家加入时提供自己的用户名/密码。",
+      "keywords": "whitelist,add,auto-create,automatic,players"
+    },
+    "DisplayUserName": {
+      "display_name": "显示玩家用户名",
+      "description": "在玩家角色上方显示用户名。",
+      "keywords": "username,display,player"
+    },
+    "DropOffWhiteListAfterDeath": {
+      "display_name": "死亡后移出白名单",
+      "description": "玩家死亡后从白名单中移除。这可防止玩家在非开放服务器上死亡后创建新角色。",
+      "keywords": "whitelist,drop,death,remove"
+    },
+    "LoginQueueConnectTimeout": {
+      "display_name": "登录队列连接超时",
+      "description": "登录队列中玩家的超时时间。",
+      "keywords": "login,queue,timeout"
+    },
+    "LoginQueueEnabled": {
+      "display_name": "启用登录队列",
+      "description": "启用登录服务器的队列。",
+      "keywords": "login,queue,LoginQueueEnabled"
+    },
+    "MaxAccountsPerUser": {
+      "display_name": "每个用户最大账号数",
+      "description": "设置单个 Steam 用户可在服务器上创建的不同账号数量限制",
+      "disabled": "无限制",
+      "keywords": "maximum,accounts,limit,user,steam"
+    },
+    "MouseOverToSeeDisplayName": {
+      "display_name": "需要鼠标悬停才能看到显示名称",
+      "description": "要求玩家将鼠标悬停在某人上方才能看到其显示名称。",
+      "keywords": "mouse,over,display,name,mouse-over"
+    },
+    "PingLimit": {
+      "display_name": "延迟限制",
+      "description": "设置玩家被踢出前的最大延迟。",
+      "disabled": "无限制",
+      "keywords": "ping,limit,kick"
+    },
+    "ShowFirstAndLastName": {
+      "display_name": "显示玩家角色名称",
+      "description": "在角色上方显示名字和姓氏，而不是用户名。",
+      "keywords": "display,character,name"
+    },
+    "SteamScoreboard": {
+      "display_name": "Steam 记分板",
+      "description": "在玩家列表中显示 Steam 用户名和头像。",
+      "keywords": "steam,scoreboard,display"
+    },
+    "AdminSafehouse": {
+      "display_name": "允许管理员安全屋",
+      "description": "允许管理员认领安全屋。",
+      "keywords": "safehouse,admin,restrict"
+    },
+    "DisableSafehouseWhenPlayerConnected": {
+      "display_name": "玩家连接时禁用安全屋",
+      "description": "玩家在线时禁用安全屋保护，使其像普通房屋一样，仅在玩家离线时安全。",
+      "keywords": "safehouse,disable,connected"
+    },
+    "PlayerSafehouse": {
+      "display_name": "允许玩家安全屋",
+      "description": "允许玩家和管理员认领安全屋。",
+      "keywords": "safehouse,player,claim"
+    },
+    "SafeHouseRemovalTime": {
+      "display_name": "安全屋移除周期",
+      "description": "玩家若在这么多现实世界小时内未访问安全屋，将自动从安全屋中移除。",
+      "keywords": "safehouse,removal,period,inactivity"
+    },
+    "SafehouseAllowFire": {
+      "display_name": "允许安全屋火灾",
+      "description": "允许安全屋被火灾损坏。",
+      "keywords": "safehouse,fire,damage"
+    },
+    "SafehouseAllowLoot": {
+      "display_name": "允许安全屋搜刮",
+      "description": "允许非成员从安全屋搜刮物品。",
+      "keywords": "safehouse,loot,allow"
+    },
+    "SafehouseAllowNonResidential": {
+      "display_name": "允许非住宅安全屋",
+      "description": "允许玩家认领非住宅建筑（例如学校）作为安全屋。",
+      "keywords": "safehouse,non-residential,buildings"
+    },
+    "SafehouseAllowRespawn": {
+      "display_name": "允许安全屋重生",
+      "description": "允许玩家死亡后在安全屋重生。",
+      "keywords": "safehouse,respawn,allow,spawn"
+    },
+    "SafehouseAllowTrepass": {
+      "display_name": "允许安全屋擅入",
+      "description": "允许非成员未经邀请进入安全屋。",
+      "keywords": "safehouse,trespass,allow"
+    },
+    "SafehouseDaySurvivedToClaim": {
+      "display_name": "认领安全屋所需游戏天数",
+      "description": "玩家认领安全屋前必须存活的游戏内天数。",
+      "keywords": "safehouse,days,claim"
+    },
+    "ChatStreams": {
+      "display_name": "聊天频道",
+      "description": "启用特定的聊天频道用于交流。",
+      "choices": {
+        "Say": "说",
+        "Radio": "无线电",
+        "Whisper": "低语",
+        "Yell": "喊叫",
+        "Safehouse": "安全屋",
+        "Faction": "派系",
+        "All": "全部"
+      },
+      "keywords": "chat,streams,communication"
+    },
+    "DisableRadioAdmin": {
+      "display_name": "禁用管理员无线电",
+      "description": "禁用具有“管理员”权限等级玩家的无线电传输。",
+      "keywords": "radio,admin,disable"
+    },
+    "DisableRadioGM": {
+      "display_name": "禁用 GM 无线电",
+      "description": "禁用具有“GM”权限等级玩家的无线电传输。",
+      "keywords": "radio,gm,disable"
+    },
+    "DisableRadioInvisible": {
+      "display_name": "禁用隐身玩家无线电",
+      "description": "禁用隐身玩家的无线电传输。",
+      "keywords": "radio,invisible,disable"
+    },
+    "DisableRadioModerator": {
+      "display_name": "禁用版主无线电",
+      "description": "禁用具有“版主”权限等级玩家的无线电传输。",
+      "keywords": "radio,moderator,disable"
+    },
+    "DisableRadioOverseer": {
+      "display_name": "禁用监督者无线电",
+      "description": "禁用具有“监督者”权限等级玩家的无线电传输。",
+      "keywords": "radio,overseer,disable"
+    },
+    "DisableRadioStaff": {
+      "display_name": "禁用工作人员无线电",
+      "description": "禁用具有权限等级玩家的无线电传输。",
+      "keywords": "radio,staff,disable"
+    },
+    "GlobalChat": {
+      "display_name": "启用全局聊天",
+      "description": "如果启用，玩家可以与所有人交流（在聊天中使用 /all 命令）。",
+      "keywords": "chat,global,communication"
+    },
+    "Voice3D": {
+      "display_name": "启用 VOIP 3D",
+      "description": "为 VOIP 激活方向音频。",
+      "keywords": "voice,3d,voip"
+    },
+    "VoiceEnable": {
+      "display_name": "启用 VOIP",
+      "description": "为玩家启用语音通信。",
+      "keywords": "voice,enable,voip"
+    },
+    "VoiceMaxDistance": {
+      "display_name": "VOIP 最大距离",
+      "description": "指定 VOIP 音频的最大范围。",
+      "keywords": "voice,maximum,maximum,distance,range"
+    },
+    "VoiceMinDistance": {
+      "display_name": "VOIP 最小距离",
+      "description": "指定 VOIP 音频的最小范围。",
+      "keywords": "voice,minimum,minimum,distance,range"
+    }
+  },
+
+  "item_categories": {
+    "Accessory": "配件",
+    "Ammo": "弹药",
+    "Appearance": "外观",
+    "Badger": "獾",
+    "Bag": "包",
+    "Beaver": "海狸",
+    "Bunny": "兔子",
+    "Camping": "露营",
+    "Cartography": "地图",
+    "Clothing": "服装",
+    "Communications": "通信",
+    "Container": "容器",
+    "Cooking": "烹饪",
+    "Corpse": "尸体",
+    "Electronics": "电子",
+    "Entertainment": "娱乐",
+    "Explosives": "爆炸物",
+    "First Aid": "急救",
+    "Fishing": "钓鱼",
+    "Food": "食物",
+    "Fox": "狐狸",
+    "Furniture": "家具",
+    "Gardening": "园艺",
+    "Hedgehog": "刺猬",
+    "Hidden": "隐藏",
+    "Household": "家居",
+    "Instrument": "乐器",
+    "Junk": "垃圾",
+    "Light Source": "光源",
+    "Literature": "文学",
+    "Material": "材料",
+    "Mole": "鼹鼠",
+    "Paint": "油漆",
+    "Raccoon": "浣熊",
+    "Security": "安保",
+    "Skill Book": "技能书",
+    "Sports": "运动",
+    "Squirrel": "松鼠",
+    "Tool": "工具",
+    "Tool / Weapon": "工具 / 武器",
+    "Trapping": "陷阱",
+    "Vehicle Maintenance": "车辆维护",
+    "Water": "水",
+    "Water Container": "水容器",
+    "Weapon": "武器",
+    "Weapon - Crafted": "武器 - 制作",
+    "Weapon Part": "武器零件"
+  }
+}
